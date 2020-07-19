@@ -8,14 +8,14 @@ class Counter {
  * @param {integer} increment The integer added to the total count
  */
     addCount(increment) {
-        this._totalCount = this._totalCount + increment;
+        this._totalCount += increment;
     }
 
 /**
  * @param {integer} decrement The integer subtracted from the total count
  */
     subtractCount(decrement) {
-        this._totalCount = this._totalCount - decrement;
+        this._totalCount -= decrement;
     }
 /**
  * @return {integer} The current count of the Counter instance
